@@ -416,7 +416,7 @@ contract PumpFun is ReentrancyGuard {
 
         return true;
     }
-
+    //deploy
     function deploy(address tk) public onlyOwner nonReentrant {
         require(tk != address(0), "Zero addresses are not allowed.");
 
